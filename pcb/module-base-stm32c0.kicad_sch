@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "445c1fff-2e1a-48b1-a91f-a137832edebf")
 	(paper "A4")
 	(title_block
@@ -22,7 +22,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 33ed22d1-83da-45d7-b550-587827260f62)
+		(uuid "33ed22d1-83da-45d7-b550-587827260f62")
 	)
 	(rectangle
 		(start 104.775 76.2)
@@ -35,7 +35,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 377ec9a3-d363-4e26-a0f3-f82ae33f32b2)
+		(uuid "377ec9a3-d363-4e26-a0f3-f82ae33f32b2")
 	)
 	(rectangle
 		(start 192.405 76.2)
@@ -48,7 +48,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6a863a3b-e14a-49d9-b03e-7375998c0759)
+		(uuid "6a863a3b-e14a-49d9-b03e-7375998c0759")
 	)
 	(text "Bottom"
 		(exclude_from_sim no)
@@ -102,11 +102,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "496f3e28-621c-4ae3-8c95-fca1a83b0d02")
 		(property "Sheetname" "MCU"
 			(at 55.88 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,6 +118,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 55.88 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,11 +148,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5454c337-e679-4d27-a394-0abf4144d85b")
 		(property "Sheetname" "Requirements"
 			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,6 +164,8 @@
 		)
 		(property "Sheetfile" "requirements.kicad_sch"
 			(at 25.4 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,11 +194,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "79999e2d-f9ce-43cc-89fd-ab3014c490c1")
 		(property "Sheetname" "Interfaces"
 			(at 86.36 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +210,8 @@
 		)
 		(property "Sheetfile" "interface.kicad_sch"
 			(at 86.36 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,11 +240,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "eeaa896c-88e5-4042-8d3a-e7c6f02bca2a")
 		(property "Sheetname" "Power"
 			(at 116.84 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,6 +256,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 116.84 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

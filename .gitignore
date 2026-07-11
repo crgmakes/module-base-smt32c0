@@ -40,3 +40,4 @@ export-*
 
 #FreeCAD
 *.FCBak
+pcb/.history/
